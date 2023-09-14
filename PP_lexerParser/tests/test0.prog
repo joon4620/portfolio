@@ -1,0 +1,12 @@
+//Edit: Passed
+project P
+{
+    static void f(){
+        print('a');
+    }
+    static void entry()
+    int c;
+    {
+        ord(c);
+    }
+}

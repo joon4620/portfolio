@@ -1,0 +1,13 @@
+// Var error (in varDecl)
+project VarError
+    class C {
+    }
+{
+    void entry()
+        int i, j;
+        C i; //error here
+    {
+        print(i + j);
+    }
+}
+ 

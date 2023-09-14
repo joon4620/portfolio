@@ -1,0 +1,16 @@
+//Type error. Each type must be declared before its use.
+project P
+    class Car {
+        int t;
+        {
+            int f(){ return t;}
+        }
+    }
+{
+    void entry()
+        Car x;
+        int y;
+        A d;
+    {
+    }
+}

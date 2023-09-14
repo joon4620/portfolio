@@ -1,0 +1,17 @@
+// Lexer error (*2), edit: Gets errors. Passed
+project aa@@ //error here
+    class A {
+    }
+    A what;
+{
+    void entry()
+        A a;
+        int b;
+        char c;
+    {
+        if (a > b) {
+            print(c);
+        }
+    }
+}
+ 

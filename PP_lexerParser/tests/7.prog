@@ -1,0 +1,13 @@
+// Name use error (var)
+project NameUseError
+    const int size = 10;
+{
+    void entry()
+        int a, b;
+    {
+        a = sIze; //error here
+        b = size + a;
+        c = a + b;
+    }
+}
+  
